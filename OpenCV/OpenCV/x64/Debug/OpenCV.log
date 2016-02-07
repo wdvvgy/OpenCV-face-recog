@@ -1,0 +1,17 @@
+﻿Build started 2016-02-07 오후 1:51:19.
+     1>Project "C:\Users\user\documents\visual studio 2013\Projects\OpenCV\OpenCV\OpenCV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\user\Downloads\opencv\build\include /IC:\Users\user\Downloads\opencv\build\include\opencv /IC:\Users\user\Downloads\opencv\build\include\opencv2 /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt FaceRecognition.cpp
+         FaceRecognition.cpp
+     1>FaceRecognition.cpp(133): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>FaceRecognition.cpp(136): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>FaceRecognition.cpp(137): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\documents\visual studio 2013\Projects\OpenCV\x64\Debug\OpenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\user\Downloads\opencv\build\x64\vc12\lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\documents\visual studio 2013\Projects\OpenCV\x64\Debug\OpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\documents\visual studio 2013\Projects\OpenCV\x64\Debug\OpenCV.lib" /MACHINE:X64 x64\Debug\FaceRecognition.obj
+         x64\Debug\main.obj
+         OpenCV.vcxproj -> C:\Users\user\documents\visual studio 2013\Projects\OpenCV\x64\Debug\OpenCV.exe
+     1>Done Building Project "C:\Users\user\documents\visual studio 2013\Projects\OpenCV\OpenCV\OpenCV.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.69
